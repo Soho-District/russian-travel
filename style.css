@@ -32,6 +32,12 @@
   text-rendering: optimizeLegibility;
 }
 
+.text {
+  margin: 0;
+}
+
+/* header */
+
 .header {
   max-width: 1184px;
   margin: auto;
@@ -49,6 +55,7 @@
 
 .header__lang-link:hover {
   color: #d4d5d5;
+  text-decoration-line: underline;
 }
 
 .header__lang-link_disable {
@@ -57,4 +64,24 @@
 
 .header__lang-link:nth-of-type(1) {
   padding-right: 18px;
+}
+
+/* lead */
+
+.lead {
+  padding: 56px 148px 0 148px;
+  margin: auto;
+}
+
+.lead__title {
+}
+
+.lead__subtitle {
+}
+
+.lead__image {
+  width: 100%;
+}
+
+.lead__caption {
 }
