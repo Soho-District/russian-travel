@@ -1,0 +1,18 @@
+.intro__text {
+  width: calc(100% - 294px);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@media all and (max-width: 1024px) {
+  .intro__text {
+    width: calc(100% - 286px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
+}

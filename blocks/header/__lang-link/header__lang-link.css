@@ -1,0 +1,20 @@
+.header__lang-link {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.header__lang-link:hover {
+  color: #d4d5d5;
+  text-decoration-line: underline;
+}
+
+.header__lang-link:nth-of-type(1) {
+  padding-right: 18px;
+}
+
+@media all and (max-width: 425px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}

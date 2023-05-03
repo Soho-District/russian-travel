@@ -1,0 +1,10 @@
+.cover {
+  padding: 0 48px 0 48px;
+  position: relative;
+}
+
+@media all and (max-width: 1024px) {
+  .cover {
+    padding: 0;
+  }
+}

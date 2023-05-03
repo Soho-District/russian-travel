@@ -1,0 +1,10 @@
+.intro__stat {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-bottom: 2px;
+}
+
+.intro__stat:nth-last-of-type(5) {
+  padding-bottom: 0;
+}
