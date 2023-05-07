@@ -3,6 +3,7 @@
   font-weight: 400;
   color: #ffffff;
   text-decoration-line: none;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {

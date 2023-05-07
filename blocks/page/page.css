@@ -17,45 +17,9 @@
   }
 }
 
-@media all and (max-width: 930px) {
-  .page {
-    max-width: 930px;
-  }
-}
-
-@media all and (max-width: 855px) {
-  .page {
-    max-width: 855px;
-  }
-}
-
 @media all and (max-width: 768px) {
   .page {
     max-width: 768px;
-  }
-}
-
-@media all and (max-width: 710px) {
-  .page {
-    max-width: 710px;
-  }
-}
-
-@media all and (max-width: 690px) {
-  .page {
-    max-width: 690px;
-  }
-}
-
-@media all and (max-width: 520px) {
-  .page {
-    max-width: 520px;
-  }
-}
-
-@media all and (max-width: 425px) {
-  .page {
-    max-width: 425px;
   }
 }
 
