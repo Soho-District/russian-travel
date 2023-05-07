@@ -1,7 +1,7 @@
 .place {
   padding-bottom: 80px;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: fit-content(152px) fit-content(460px);
   gap: 48px 40px;
 }
@@ -21,10 +21,10 @@
   }
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 650px) {
   .place {
     padding-bottom: 50px;
-    grid-template-columns: repeat(1, 100%);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: fit-content(152px) fit-content(460px);
     gap: 0 0;
   }
