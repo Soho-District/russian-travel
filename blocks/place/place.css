@@ -15,7 +15,7 @@
 
 @media all and (max-width: 768px) {
   .place {
-    padding-bottom: 73px;
+    padding-bottom: 72px;
     grid-template-rows: fit-content(92px) fit-content(340px);
     gap: 48px 28px;
   }
@@ -23,9 +23,14 @@
 
 @media all and (max-width: 650px) {
   .place {
-    padding-bottom: 50px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: fit-content(152px) fit-content(460px);
     gap: 0 0;
+  }
+}
+
+@media all and (max-width: 420px) {
+  .place {
+    padding-bottom: 50px;
   }
 }
